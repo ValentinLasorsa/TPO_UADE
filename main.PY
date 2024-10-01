@@ -4,7 +4,7 @@ huesped=1
 print("-Bienvenido al hotel, usted es el "+str(huesped)+" huesped-")
 dni=int(input("Ingrese su DNI, sin puntos y todo junto "))
 while dni > 0:
-    if huesped == 2:
+    if huesped == 11:
         print("Lo sentimos, no hay más habitaciones disponibles.")
         dni = 0 
     else:
